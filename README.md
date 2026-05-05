@@ -10,6 +10,21 @@ This project identifies **which stage of an attack is happening**, improving thr
 
 ---
 
+##  Dataset
+
+- **Dataset Used:** CIC-IDS2018  
+- **Source:** Canadian Institute for Cybersecurity  
+- **Download Link:** https://www.unb.ca/cic/datasets/ids-2018.html  
+
+The CIC-IDS2018 dataset contains realistic network traffic with both benign and malicious activities. It includes multiple attack types such as DDoS, brute force, botnet, and infiltration, along with more than 80 network flow features.
+
+In this project, the dataset was:
+- Cleaned and preprocessed
+- Mapped to Cyber Kill Chain (CKC) stages
+- Sampled (~2 million rows) using stratified sampling for efficient training
+
+---
+
 ##  CKC Stages Mapped
 
 - Reconnaissance  
